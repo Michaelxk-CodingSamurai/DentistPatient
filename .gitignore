@@ -1,0 +1,7 @@
+
+*.json
+*.dll
+*.pdb
+*.cache
+*.props
+*.targets

@@ -1,0 +1,623 @@
+2019-08-07 15:56:58.5817 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-08-07 15:56:58.6635 Debug Search for auto loading files, location: C:\Users\Owner\.nuget\packages\nlog\4.5.0\lib\netstandard2.0
+2019-08-07 15:56:58.6721 Debug Search for auto loading files, location: C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer\bin\Debug\netcoreapp2.2
+2019-08-07 15:56:58.6721 Debug Start auto loading, location: C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer\bin\Debug\netcoreapp2.2
+2019-08-07 15:56:58.6721 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-08-07 15:56:58.6721 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-08-07 15:56:58.6721 Debug Auto loading done
+2019-08-07 15:56:58.6721 Info Message Template Auto Format enabled
+2019-08-07 15:56:58.7128 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 15:56:58.7205 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-08-07 15:56:58.7205 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-08-07 15:56:58.7481 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-08-07 15:56:58.7481 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 15:56:58.7481 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 15:56:58.7481 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 15:56:58.7481 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-08-07 15:56:58.7481 Trace  Scanning Property Culture '' System.Globalization
+2019-08-07 15:56:58.7481 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-08-07 15:56:58.7481 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 15:56:58.7481 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 15:56:58.7481 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 15:56:58.7630 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 15:56:58.7630 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2019-08-07 15:56:58.7630 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 15:56:58.7630 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-08-07 15:56:58.7630 Debug Setting 'FileTarget.name' to 'logfile'
+2019-08-07 15:56:58.7630 Debug Setting 'FileTarget.fileName' to 'C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'
+2019-08-07 15:56:58.7783 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 15:56:58.7783 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-08-07 15:56:58.7783 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2019-08-07 15:56:58.7783 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 15:56:58.7783 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-08-07 15:56:58.7783 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-08-07 15:56:58.7783 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-08-07 15:56:58.7783 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 15:56:58.7783 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 15:56:58.7783 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 15:56:58.7783 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-08-07 15:56:58.7783 Trace  Scanning Property Culture '' System.Globalization
+2019-08-07 15:56:58.7783 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-08-07 15:56:58.7783 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 15:56:58.7783 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 15:56:58.7783 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 15:56:58.7783 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 15:56:58.7783 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-08-07 15:56:58.7956 Info Adding target File Target[logfile]
+2019-08-07 15:56:58.7956 Debug Registered target logfile: NLog.Targets.FileTarget
+2019-08-07 15:56:58.7956 Trace ParseRulesElement
+2019-08-07 15:56:58.8148 Info Configured from an XML element in C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer/nlog.config...
+2019-08-07 15:56:58.8148 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-08-07 15:56:58.8277 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-08-07 15:56:58.8277 Debug --- NLog configuration dump ---
+2019-08-07 15:56:58.8277 Debug Targets:
+2019-08-07 15:56:58.8277 Debug File Target[logfile]
+2019-08-07 15:56:58.8277 Debug Rules:
+2019-08-07 15:56:58.8277 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2019-08-07 15:56:58.8277 Debug --- End of NLog configuration dump ---
+2019-08-07 15:56:58.8436 Trace FindReachableObject<System.Object>:
+2019-08-07 15:56:58.8436 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2019-08-07 15:56:58.8436 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2019-08-07 15:56:58.8436 Trace  Scanning FileTarget 'File Target[logfile]'
+2019-08-07 15:56:58.8436 Trace   Scanning Property FileName ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-08-07 15:56:58.8436 Trace   Scanning SimpleLayout ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt''
+2019-08-07 15:56:58.8436 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 15:56:58.8436 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 15:56:58.8436 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-08-07 15:56:58.8436 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 15:56:58.8436 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-08-07 15:56:58.8436 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-08-07 15:56:58.8436 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 15:56:58.8565 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-08-07 15:56:58.8565 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 15:56:58.8565 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-08-07 15:56:58.8565 Trace     Scanning Property Culture '' System.Globalization
+2019-08-07 15:56:58.8565 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-08-07 15:56:58.8565 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 15:56:58.8565 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 15:56:58.8565 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 15:56:58.8565 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 15:56:58.8565 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-08-07 15:56:58.8565 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2019-08-07 15:56:58.8565 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-08-07 15:56:58.8565 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2019-08-07 15:56:58.8565 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2019-08-07 15:56:58.8565 Trace  Scanning Property Levels 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LogLevel]' System.Collections.ObjectModel
+2019-08-07 15:56:58.8565 Info Found 14 configuration items
+2019-08-07 15:56:58.8727 Trace Initializing Layout Renderer: ${message}
+2019-08-07 15:56:58.8727 Trace Initializing Layout Renderer: ${literal}
+2019-08-07 15:56:58.8727 Trace Initializing Layout Renderer: ${level}
+2019-08-07 15:56:58.8727 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2019-08-07 15:56:58.8727 Trace FindReachableObject<System.Object>:
+2019-08-07 15:56:58.8727 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 15:56:58.8727 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 15:56:58.8727 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 15:56:58.8727 Trace Initializing Layout Renderer: ${uppercase}
+2019-08-07 15:56:58.8727 Trace Initializing Layout Renderer: ${literal}
+2019-08-07 15:56:58.8882 Trace Initializing Layout Renderer: ${longdate}
+2019-08-07 15:56:58.8882 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2019-08-07 15:56:58.8882 Trace FindReachableObject<System.Object>:
+2019-08-07 15:56:58.8882 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-08-07 15:56:58.8882 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 15:56:58.8882 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-08-07 15:56:58.8882 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 15:56:58.8882 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-08-07 15:56:58.8882 Trace   Scanning Property Culture '' System.Globalization
+2019-08-07 15:56:58.8882 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-08-07 15:56:58.8882 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 15:56:58.8882 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 15:56:58.8882 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 15:56:58.8882 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 15:56:58.8882 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-08-07 15:56:58.8882 Trace Initializing Layout Renderer: ${literal}
+2019-08-07 15:56:58.8882 Trace Initializing Layout Renderer: ${shortdate}
+2019-08-07 15:56:58.8882 Trace Initializing Layout Renderer: ${literal}
+2019-08-07 15:56:58.8882 Trace Initializing 'C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'
+2019-08-07 15:56:58.8882 Trace FindReachableObject<System.Object>:
+2019-08-07 15:56:58.9028 Trace Scanning SimpleLayout ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt''
+2019-08-07 15:56:58.9028 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 15:56:58.9028 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 15:56:58.9028 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-08-07 15:56:58.9028 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 15:56:58.9028 Trace Initializing File Target[logfile]
+2019-08-07 15:56:58.9028 Trace FindReachableObject<NLog.Layouts.Layout>:
+2019-08-07 15:56:58.9028 Trace Scanning FileTarget 'File Target[logfile]'
+2019-08-07 15:56:58.9028 Trace  Scanning Property FileName ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-08-07 15:56:58.9028 Trace  Scanning SimpleLayout ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt''
+2019-08-07 15:56:58.9028 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-08-07 15:56:58.9028 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-08-07 15:56:58.9028 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2019-08-07 15:56:58.9028 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-08-07 15:56:58.9028 Trace File Target[logfile] has 2 layouts
+2019-08-07 15:56:58.9201 Trace Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2019-08-07 15:56:58.9359 Debug Watching path 'C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer' filter 'nlog.config' for changes.
+2019-08-07 16:00:08.4867 Info Shutting down logging...
+2019-08-07 16:00:08.4867 Debug Stopping file watching for path 'C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer' filter 'nlog.config'
+2019-08-07 16:00:08.4985 Trace Flushing all targets...
+2019-08-07 16:00:08.4985 Trace ForEachItemInParallel() 1 items
+2019-08-07 16:00:08.5278 Trace FileTarget: FlushAsync
+2019-08-07 16:00:08.5415 Trace Continuation invoked: 
+2019-08-07 16:00:08.5435 Trace Parallel task completed. 0 items remaining
+2019-08-07 16:00:08.5435 Trace FileTarget: FlushAsync Done
+2019-08-07 16:00:08.5435 Debug Closing logging configuration...
+2019-08-07 16:00:08.5435 Trace Closing File Target[logfile]
+2019-08-07 16:00:08.5435 Debug Closing target 'File Target[logfile]'.
+2019-08-07 16:00:08.5612 Debug Closed target 'File Target[logfile]'.
+2019-08-07 16:00:08.5612 Trace Closing 'C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'
+2019-08-07 16:00:08.5612 Trace Closing Layout Renderer: ${literal}
+2019-08-07 16:00:08.5612 Trace Closing Layout Renderer: ${shortdate}
+2019-08-07 16:00:08.5612 Trace Closing Layout Renderer: ${literal}
+2019-08-07 16:00:08.5612 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2019-08-07 16:00:08.5612 Trace Closing Layout Renderer: ${longdate}
+2019-08-07 16:00:08.5612 Trace Closing Layout Renderer: ${literal}
+2019-08-07 16:00:08.5612 Trace Closing Layout Renderer: ${uppercase}
+2019-08-07 16:00:08.5612 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2019-08-07 16:00:08.5612 Trace Closing Layout Renderer: ${level}
+2019-08-07 16:00:08.5612 Trace Closing Layout Renderer: ${literal}
+2019-08-07 16:00:08.5612 Trace Closing Layout Renderer: ${message}
+2019-08-07 16:00:08.5751 Debug Finished closing logging configuration.
+2019-08-07 16:00:08.5751 Info Logger has been shut down.
+2019-08-07 16:01:57.0124 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-08-07 16:01:57.0726 Debug Search for auto loading files, location: C:\Users\Owner\.nuget\packages\nlog\4.5.0\lib\netstandard2.0
+2019-08-07 16:01:57.0823 Debug Search for auto loading files, location: C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer\bin\Debug\netcoreapp2.2
+2019-08-07 16:01:57.0823 Debug Start auto loading, location: C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer\bin\Debug\netcoreapp2.2
+2019-08-07 16:01:57.0823 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-08-07 16:01:57.0914 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-08-07 16:01:57.0914 Debug Auto loading done
+2019-08-07 16:01:57.0914 Info Message Template Auto Format enabled
+2019-08-07 16:01:57.1265 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:01:57.1265 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-08-07 16:01:57.1475 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-08-07 16:01:57.1641 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-08-07 16:01:57.1641 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:01:57.1641 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:01:57.1641 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:01:57.1641 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-08-07 16:01:57.1698 Trace  Scanning Property Culture '' System.Globalization
+2019-08-07 16:01:57.1698 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-08-07 16:01:57.1698 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 16:01:57.1698 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:01:57.1698 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:01:57.1698 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:01:57.1698 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2019-08-07 16:01:57.1698 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:01:57.1846 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-08-07 16:01:57.1846 Debug Setting 'FileTarget.name' to 'logfile'
+2019-08-07 16:01:57.1846 Debug Setting 'FileTarget.fileName' to 'C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'
+2019-08-07 16:01:57.1846 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:01:57.1846 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-08-07 16:01:57.2008 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2019-08-07 16:01:57.2008 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:01:57.2008 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-08-07 16:01:57.2008 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-08-07 16:01:57.2008 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-08-07 16:01:57.2008 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:01:57.2008 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:01:57.2008 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:01:57.2008 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-08-07 16:01:57.2008 Trace  Scanning Property Culture '' System.Globalization
+2019-08-07 16:01:57.2008 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-08-07 16:01:57.2008 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 16:01:57.2008 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:01:57.2008 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:01:57.2008 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:01:57.2008 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-08-07 16:01:57.2008 Info Adding target File Target[logfile]
+2019-08-07 16:01:57.2187 Debug Registered target logfile: NLog.Targets.FileTarget
+2019-08-07 16:01:57.2187 Trace ParseRulesElement
+2019-08-07 16:01:57.2357 Info Configured from an XML element in C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer/nlog.config...
+2019-08-07 16:01:57.2357 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-08-07 16:01:57.2489 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-08-07 16:01:57.2489 Debug --- NLog configuration dump ---
+2019-08-07 16:01:57.2489 Debug Targets:
+2019-08-07 16:01:57.2489 Debug File Target[logfile]
+2019-08-07 16:01:57.2489 Debug Rules:
+2019-08-07 16:01:57.2489 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2019-08-07 16:01:57.2489 Debug --- End of NLog configuration dump ---
+2019-08-07 16:01:57.2651 Trace FindReachableObject<System.Object>:
+2019-08-07 16:01:57.2651 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2019-08-07 16:01:57.2651 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2019-08-07 16:01:57.2651 Trace  Scanning FileTarget 'File Target[logfile]'
+2019-08-07 16:01:57.2651 Trace   Scanning Property FileName ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-08-07 16:01:57.2651 Trace   Scanning SimpleLayout ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt''
+2019-08-07 16:01:57.2651 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:01:57.2651 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:01:57.2651 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-08-07 16:01:57.2651 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:01:57.2651 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-08-07 16:01:57.2651 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-08-07 16:01:57.2651 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:01:57.2651 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-08-07 16:01:57.2651 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:01:57.2651 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-08-07 16:01:57.2783 Trace     Scanning Property Culture '' System.Globalization
+2019-08-07 16:01:57.2783 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-08-07 16:01:57.2783 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 16:01:57.2783 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:01:57.2783 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:01:57.2783 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:01:57.2783 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-08-07 16:01:57.2783 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2019-08-07 16:01:57.2783 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-08-07 16:01:57.2783 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2019-08-07 16:01:57.2783 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2019-08-07 16:01:57.2783 Trace  Scanning Property Levels 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LogLevel]' System.Collections.ObjectModel
+2019-08-07 16:01:57.2783 Info Found 14 configuration items
+2019-08-07 16:01:57.2783 Trace Initializing Layout Renderer: ${message}
+2019-08-07 16:01:57.2783 Trace Initializing Layout Renderer: ${literal}
+2019-08-07 16:01:57.2941 Trace Initializing Layout Renderer: ${level}
+2019-08-07 16:01:57.2941 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2019-08-07 16:01:57.2941 Trace FindReachableObject<System.Object>:
+2019-08-07 16:01:57.2941 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 16:01:57.2941 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:01:57.2941 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:01:57.2941 Trace Initializing Layout Renderer: ${uppercase}
+2019-08-07 16:01:57.2941 Trace Initializing Layout Renderer: ${literal}
+2019-08-07 16:01:57.2941 Trace Initializing Layout Renderer: ${longdate}
+2019-08-07 16:01:57.2941 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2019-08-07 16:01:57.2941 Trace FindReachableObject<System.Object>:
+2019-08-07 16:01:57.3094 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-08-07 16:01:57.3094 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:01:57.3094 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-08-07 16:01:57.3094 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:01:57.3094 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-08-07 16:01:57.3094 Trace   Scanning Property Culture '' System.Globalization
+2019-08-07 16:01:57.3094 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-08-07 16:01:57.3094 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 16:01:57.3094 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:01:57.3094 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:01:57.3094 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:01:57.3094 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-08-07 16:01:57.3094 Trace Initializing Layout Renderer: ${literal}
+2019-08-07 16:01:57.3094 Trace Initializing Layout Renderer: ${shortdate}
+2019-08-07 16:01:57.3094 Trace Initializing Layout Renderer: ${literal}
+2019-08-07 16:01:57.3094 Trace Initializing 'C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'
+2019-08-07 16:01:57.3094 Trace FindReachableObject<System.Object>:
+2019-08-07 16:01:57.3094 Trace Scanning SimpleLayout ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt''
+2019-08-07 16:01:57.3094 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:01:57.3094 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:01:57.3094 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-08-07 16:01:57.3094 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:01:57.3250 Trace Initializing File Target[logfile]
+2019-08-07 16:01:57.3250 Trace FindReachableObject<NLog.Layouts.Layout>:
+2019-08-07 16:01:57.3250 Trace Scanning FileTarget 'File Target[logfile]'
+2019-08-07 16:01:57.3250 Trace  Scanning Property FileName ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-08-07 16:01:57.3250 Trace  Scanning SimpleLayout ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt''
+2019-08-07 16:01:57.3250 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-08-07 16:01:57.3250 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-08-07 16:01:57.3250 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2019-08-07 16:01:57.3250 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-08-07 16:01:57.3250 Trace File Target[logfile] has 2 layouts
+2019-08-07 16:01:57.3250 Trace Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2019-08-07 16:01:57.3534 Debug Watching path 'C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer' filter 'nlog.config' for changes.
+2019-08-07 16:03:01.8133 Info Shutting down logging...
+2019-08-07 16:03:01.8133 Debug Stopping file watching for path 'C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer' filter 'nlog.config'
+2019-08-07 16:03:01.8274 Trace Flushing all targets...
+2019-08-07 16:03:01.8274 Trace ForEachItemInParallel() 1 items
+2019-08-07 16:03:01.8274 Trace FileTarget: FlushAsync
+2019-08-07 16:03:01.8447 Trace Continuation invoked: 
+2019-08-07 16:03:01.8447 Trace Parallel task completed. 0 items remaining
+2019-08-07 16:03:01.8447 Trace FileTarget: FlushAsync Done
+2019-08-07 16:03:01.8447 Debug Closing logging configuration...
+2019-08-07 16:03:01.8447 Trace Closing File Target[logfile]
+2019-08-07 16:03:01.8572 Debug Closing target 'File Target[logfile]'.
+2019-08-07 16:03:01.8572 Debug Closed target 'File Target[logfile]'.
+2019-08-07 16:03:01.8572 Trace Closing 'C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'
+2019-08-07 16:03:01.8572 Trace Closing Layout Renderer: ${literal}
+2019-08-07 16:03:01.8572 Trace Closing Layout Renderer: ${shortdate}
+2019-08-07 16:03:01.8572 Trace Closing Layout Renderer: ${literal}
+2019-08-07 16:03:01.8572 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2019-08-07 16:03:01.8572 Trace Closing Layout Renderer: ${longdate}
+2019-08-07 16:03:01.8572 Trace Closing Layout Renderer: ${literal}
+2019-08-07 16:03:01.8572 Trace Closing Layout Renderer: ${uppercase}
+2019-08-07 16:03:01.8721 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2019-08-07 16:03:01.8721 Trace Closing Layout Renderer: ${level}
+2019-08-07 16:03:01.8721 Trace Closing Layout Renderer: ${literal}
+2019-08-07 16:03:01.8721 Trace Closing Layout Renderer: ${message}
+2019-08-07 16:03:01.8721 Debug Finished closing logging configuration.
+2019-08-07 16:03:01.8721 Info Logger has been shut down.
+2019-08-07 16:03:32.7917 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-08-07 16:03:32.9141 Debug Search for auto loading files, location: C:\Users\Owner\.nuget\packages\nlog\4.5.0\lib\netstandard2.0
+2019-08-07 16:03:32.9332 Debug Search for auto loading files, location: C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer\bin\Debug\netcoreapp2.2
+2019-08-07 16:03:32.9405 Debug Start auto loading, location: C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer\bin\Debug\netcoreapp2.2
+2019-08-07 16:03:32.9405 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-08-07 16:03:32.9532 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-08-07 16:03:32.9532 Debug Auto loading done
+2019-08-07 16:03:32.9532 Info Message Template Auto Format enabled
+2019-08-07 16:03:33.0199 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:03:33.0199 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-08-07 16:03:33.0388 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-08-07 16:03:33.0556 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-08-07 16:03:33.0556 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:03:33.0556 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:03:33.0599 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:03:33.0599 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-08-07 16:03:33.0599 Trace  Scanning Property Culture '' System.Globalization
+2019-08-07 16:03:33.0599 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-08-07 16:03:33.0599 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 16:03:33.0599 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:03:33.0599 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:03:33.0599 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:03:33.0599 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2019-08-07 16:03:33.0599 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:03:33.0749 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-08-07 16:03:33.0749 Debug Setting 'FileTarget.name' to 'logfile'
+2019-08-07 16:03:33.0749 Debug Setting 'FileTarget.fileName' to 'C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'
+2019-08-07 16:03:33.0749 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:03:33.0749 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-08-07 16:03:33.0917 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2019-08-07 16:03:33.0917 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:03:33.0917 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-08-07 16:03:33.0917 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-08-07 16:03:33.0917 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-08-07 16:03:33.0917 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:03:33.0917 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:03:33.0917 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:03:33.0917 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-08-07 16:03:33.0917 Trace  Scanning Property Culture '' System.Globalization
+2019-08-07 16:03:33.0917 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-08-07 16:03:33.0917 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 16:03:33.0917 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:03:33.0917 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:03:33.0917 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:03:33.0917 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-08-07 16:03:33.1080 Info Adding target File Target[logfile]
+2019-08-07 16:03:33.1080 Debug Registered target logfile: NLog.Targets.FileTarget
+2019-08-07 16:03:33.1080 Trace ParseRulesElement
+2019-08-07 16:03:33.1284 Info Configured from an XML element in C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer/nlog.config...
+2019-08-07 16:03:33.1386 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-08-07 16:03:33.1386 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-08-07 16:03:33.1386 Debug --- NLog configuration dump ---
+2019-08-07 16:03:33.1386 Debug Targets:
+2019-08-07 16:03:33.1386 Debug File Target[logfile]
+2019-08-07 16:03:33.1386 Debug Rules:
+2019-08-07 16:03:33.1547 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2019-08-07 16:03:33.1547 Debug --- End of NLog configuration dump ---
+2019-08-07 16:03:33.1547 Trace FindReachableObject<System.Object>:
+2019-08-07 16:03:33.1547 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2019-08-07 16:03:33.1547 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2019-08-07 16:03:33.1547 Trace  Scanning FileTarget 'File Target[logfile]'
+2019-08-07 16:03:33.1547 Trace   Scanning Property FileName ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-08-07 16:03:33.1702 Trace   Scanning SimpleLayout ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt''
+2019-08-07 16:03:33.1702 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:03:33.1702 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:03:33.1702 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-08-07 16:03:33.1702 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:03:33.1702 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-08-07 16:03:33.1702 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-08-07 16:03:33.1702 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:03:33.1702 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-08-07 16:03:33.1702 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:03:33.1702 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-08-07 16:03:33.1702 Trace     Scanning Property Culture '' System.Globalization
+2019-08-07 16:03:33.1702 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-08-07 16:03:33.1702 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 16:03:33.1702 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:03:33.1702 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:03:33.1702 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:03:33.1702 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-08-07 16:03:33.1702 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2019-08-07 16:03:33.1855 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-08-07 16:03:33.1855 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2019-08-07 16:03:33.1855 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2019-08-07 16:03:33.1855 Trace  Scanning Property Levels 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LogLevel]' System.Collections.ObjectModel
+2019-08-07 16:03:33.1855 Info Found 14 configuration items
+2019-08-07 16:03:33.1855 Trace Initializing Layout Renderer: ${message}
+2019-08-07 16:03:33.1855 Trace Initializing Layout Renderer: ${literal}
+2019-08-07 16:03:33.1855 Trace Initializing Layout Renderer: ${level}
+2019-08-07 16:03:33.1855 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2019-08-07 16:03:33.2003 Trace FindReachableObject<System.Object>:
+2019-08-07 16:03:33.2003 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 16:03:33.2003 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:03:33.2003 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:03:33.2003 Trace Initializing Layout Renderer: ${uppercase}
+2019-08-07 16:03:33.2003 Trace Initializing Layout Renderer: ${literal}
+2019-08-07 16:03:33.2003 Trace Initializing Layout Renderer: ${longdate}
+2019-08-07 16:03:33.2003 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2019-08-07 16:03:33.2003 Trace FindReachableObject<System.Object>:
+2019-08-07 16:03:33.2003 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-08-07 16:03:33.2003 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:03:33.2003 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-08-07 16:03:33.2003 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:03:33.2003 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-08-07 16:03:33.2003 Trace   Scanning Property Culture '' System.Globalization
+2019-08-07 16:03:33.2003 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-08-07 16:03:33.2161 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 16:03:33.2161 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:03:33.2161 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:03:33.2161 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:03:33.2161 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-08-07 16:03:33.2161 Trace Initializing Layout Renderer: ${literal}
+2019-08-07 16:03:33.2161 Trace Initializing Layout Renderer: ${shortdate}
+2019-08-07 16:03:33.2161 Trace Initializing Layout Renderer: ${literal}
+2019-08-07 16:03:33.2161 Trace Initializing 'C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'
+2019-08-07 16:03:33.2161 Trace FindReachableObject<System.Object>:
+2019-08-07 16:03:33.2161 Trace Scanning SimpleLayout ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt''
+2019-08-07 16:03:33.2161 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:03:33.2161 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:03:33.2161 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-08-07 16:03:33.2161 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:03:33.2161 Trace Initializing File Target[logfile]
+2019-08-07 16:03:33.2328 Trace FindReachableObject<NLog.Layouts.Layout>:
+2019-08-07 16:03:33.2328 Trace Scanning FileTarget 'File Target[logfile]'
+2019-08-07 16:03:33.2328 Trace  Scanning Property FileName ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-08-07 16:03:33.2328 Trace  Scanning SimpleLayout ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt''
+2019-08-07 16:03:33.2328 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-08-07 16:03:33.2328 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-08-07 16:03:33.2328 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2019-08-07 16:03:33.2328 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-08-07 16:03:33.2328 Trace File Target[logfile] has 2 layouts
+2019-08-07 16:03:33.2328 Trace Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2019-08-07 16:03:33.2564 Debug Watching path 'C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer' filter 'nlog.config' for changes.
+2019-08-07 16:05:41.3586 Info Shutting down logging...
+2019-08-07 16:05:41.3586 Debug Stopping file watching for path 'C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer' filter 'nlog.config'
+2019-08-07 16:05:41.3586 Trace Flushing all targets...
+2019-08-07 16:05:41.3753 Trace ForEachItemInParallel() 1 items
+2019-08-07 16:05:41.3895 Trace FileTarget: FlushAsync
+2019-08-07 16:05:41.3895 Trace Continuation invoked: 
+2019-08-07 16:05:41.3895 Trace Parallel task completed. 0 items remaining
+2019-08-07 16:05:41.4031 Trace FileTarget: FlushAsync Done
+2019-08-07 16:05:41.4031 Debug Closing logging configuration...
+2019-08-07 16:05:41.4031 Trace Closing File Target[logfile]
+2019-08-07 16:05:41.4031 Debug Closing target 'File Target[logfile]'.
+2019-08-07 16:05:41.4031 Debug Closed target 'File Target[logfile]'.
+2019-08-07 16:05:41.4031 Trace Closing 'C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'
+2019-08-07 16:05:41.4031 Trace Closing Layout Renderer: ${literal}
+2019-08-07 16:05:41.4191 Trace Closing Layout Renderer: ${shortdate}
+2019-08-07 16:05:41.4191 Trace Closing Layout Renderer: ${literal}
+2019-08-07 16:05:41.4191 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2019-08-07 16:05:41.4191 Trace Closing Layout Renderer: ${longdate}
+2019-08-07 16:05:41.4191 Trace Closing Layout Renderer: ${literal}
+2019-08-07 16:05:41.4191 Trace Closing Layout Renderer: ${uppercase}
+2019-08-07 16:05:41.4191 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2019-08-07 16:05:41.4191 Trace Closing Layout Renderer: ${level}
+2019-08-07 16:05:41.4191 Trace Closing Layout Renderer: ${literal}
+2019-08-07 16:05:41.4191 Trace Closing Layout Renderer: ${message}
+2019-08-07 16:05:41.4191 Debug Finished closing logging configuration.
+2019-08-07 16:05:41.4191 Info Logger has been shut down.
+2019-08-07 16:05:48.9515 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-08-07 16:05:49.0263 Debug Search for auto loading files, location: C:\Users\Owner\.nuget\packages\nlog\4.5.0\lib\netstandard2.0
+2019-08-07 16:05:49.0362 Debug Search for auto loading files, location: C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer\bin\Debug\netcoreapp2.2
+2019-08-07 16:05:49.0362 Debug Start auto loading, location: C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer\bin\Debug\netcoreapp2.2
+2019-08-07 16:05:49.0447 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-08-07 16:05:49.0447 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-08-07 16:05:49.0447 Debug Auto loading done
+2019-08-07 16:05:49.0447 Info Message Template Auto Format enabled
+2019-08-07 16:05:49.0892 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:05:49.0984 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-08-07 16:05:49.1102 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-08-07 16:05:49.1283 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-08-07 16:05:49.1283 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:05:49.1283 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:05:49.1283 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:05:49.1283 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-08-07 16:05:49.1283 Trace  Scanning Property Culture '' System.Globalization
+2019-08-07 16:05:49.1427 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-08-07 16:05:49.1427 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 16:05:49.1427 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:05:49.1427 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:05:49.1427 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:05:49.1427 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2019-08-07 16:05:49.1541 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:05:49.1541 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-08-07 16:05:49.1737 Debug Setting 'FileTarget.name' to 'logfile'
+2019-08-07 16:05:49.1737 Debug Setting 'FileTarget.fileName' to 'C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'
+2019-08-07 16:05:49.1737 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:05:49.1737 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-08-07 16:05:49.1737 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2019-08-07 16:05:49.1737 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:05:49.1737 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-08-07 16:05:49.1737 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-08-07 16:05:49.1737 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-08-07 16:05:49.1737 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:05:49.1852 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:05:49.1852 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:05:49.1852 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-08-07 16:05:49.1852 Trace  Scanning Property Culture '' System.Globalization
+2019-08-07 16:05:49.1852 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-08-07 16:05:49.1852 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 16:05:49.1852 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:05:49.1852 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:05:49.1852 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-08-07 16:05:49.1852 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-08-07 16:05:49.1852 Info Adding target File Target[logfile]
+2019-08-07 16:05:49.1852 Debug Registered target logfile: NLog.Targets.FileTarget
+2019-08-07 16:05:49.2018 Trace ParseRulesElement
+2019-08-07 16:05:49.2229 Info Configured from an XML element in C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer/nlog.config...
+2019-08-07 16:05:49.2347 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-08-07 16:05:49.2347 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-08-07 16:05:49.2347 Debug --- NLog configuration dump ---
+2019-08-07 16:05:49.2473 Debug Targets:
+2019-08-07 16:05:49.2473 Debug File Target[logfile]
+2019-08-07 16:05:49.2473 Debug Rules:
+2019-08-07 16:05:49.2473 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2019-08-07 16:05:49.2473 Debug --- End of NLog configuration dump ---
+2019-08-07 16:05:49.2473 Trace FindReachableObject<System.Object>:
+2019-08-07 16:05:49.2473 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2019-08-07 16:05:49.2473 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2019-08-07 16:05:49.2635 Trace  Scanning FileTarget 'File Target[logfile]'
+2019-08-07 16:05:49.2635 Trace   Scanning Property FileName ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-08-07 16:05:49.2635 Trace   Scanning SimpleLayout ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt''
+2019-08-07 16:05:49.2635 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:05:49.2635 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:05:49.2635 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-08-07 16:05:49.2635 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:05:49.2635 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-08-07 16:05:49.2635 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-08-07 16:05:49.2635 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:05:49.2635 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-08-07 16:05:49.2782 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:05:49.2782 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-08-07 16:05:49.2782 Trace     Scanning Property Culture '' System.Globalization
+2019-08-07 16:05:49.2782 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-08-07 16:05:49.2782 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 16:05:49.2782 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:05:49.2782 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:05:49.2782 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:05:49.2782 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-08-07 16:05:49.2782 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2019-08-07 16:05:49.2782 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-08-07 16:05:49.2939 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2019-08-07 16:05:49.2939 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2019-08-07 16:05:49.2939 Trace  Scanning Property Levels 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LogLevel]' System.Collections.ObjectModel
+2019-08-07 16:05:49.2939 Info Found 14 configuration items
+2019-08-07 16:05:49.2939 Trace Initializing Layout Renderer: ${message}
+2019-08-07 16:05:49.2939 Trace Initializing Layout Renderer: ${literal}
+2019-08-07 16:05:49.2939 Trace Initializing Layout Renderer: ${level}
+2019-08-07 16:05:49.2939 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2019-08-07 16:05:49.3109 Trace FindReachableObject<System.Object>:
+2019-08-07 16:05:49.3109 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 16:05:49.3109 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:05:49.3109 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:05:49.3109 Trace Initializing Layout Renderer: ${uppercase}
+2019-08-07 16:05:49.3109 Trace Initializing Layout Renderer: ${literal}
+2019-08-07 16:05:49.3109 Trace Initializing Layout Renderer: ${longdate}
+2019-08-07 16:05:49.3109 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2019-08-07 16:05:49.3109 Trace FindReachableObject<System.Object>:
+2019-08-07 16:05:49.3109 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-08-07 16:05:49.3109 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:05:49.3251 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-08-07 16:05:49.3251 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:05:49.3251 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-08-07 16:05:49.3251 Trace   Scanning Property Culture '' System.Globalization
+2019-08-07 16:05:49.3251 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-08-07 16:05:49.3251 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-08-07 16:05:49.3251 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:05:49.3251 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-08-07 16:05:49.3251 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:05:49.3251 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-08-07 16:05:49.3251 Trace Initializing Layout Renderer: ${literal}
+2019-08-07 16:05:49.3251 Trace Initializing Layout Renderer: ${shortdate}
+2019-08-07 16:05:49.3251 Trace Initializing Layout Renderer: ${literal}
+2019-08-07 16:05:49.3251 Trace Initializing 'C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'
+2019-08-07 16:05:49.3251 Trace FindReachableObject<System.Object>:
+2019-08-07 16:05:49.3251 Trace Scanning SimpleLayout ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt''
+2019-08-07 16:05:49.3417 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-08-07 16:05:49.3417 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:05:49.3417 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-08-07 16:05:49.3417 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-08-07 16:05:49.3417 Trace Initializing File Target[logfile]
+2019-08-07 16:05:49.3562 Trace FindReachableObject<NLog.Layouts.Layout>:
+2019-08-07 16:05:49.3562 Trace Scanning FileTarget 'File Target[logfile]'
+2019-08-07 16:05:49.3562 Trace  Scanning Property FileName ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-08-07 16:05:49.3562 Trace  Scanning SimpleLayout ''C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/${shortdate}_logfile.txt''
+2019-08-07 16:05:49.3562 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-08-07 16:05:49.3562 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-08-07 16:05:49.3562 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2019-08-07 16:05:49.3562 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-08-07 16:05:49.3562 Trace File Target[logfile] has 2 layouts
+2019-08-07 16:05:49.3562 Trace Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2019-08-07 16:05:49.3919 Debug Watching path 'C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\DentistPatientServer' filter 'nlog.config' for changes.
+2019-08-07 16:05:50.8066 Debug Targets for LoggerService.LoggerManager by level:
+2019-08-07 16:05:50.8066 Debug Trace =>
+2019-08-07 16:05:50.8066 Debug Debug => logfile
+2019-08-07 16:05:50.8115 Debug Info => logfile
+2019-08-07 16:05:50.8115 Debug Warn => logfile
+2019-08-07 16:05:50.8115 Debug Error => logfile
+2019-08-07 16:05:50.8115 Debug Fatal => logfile
+2019-08-07 16:05:50.8871 Debug FileTarget: process file 'C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/2019-08-07_logfile.txt' on startup
+2019-08-07 16:05:50.9091 Debug Creating file appender: C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/2019-08-07_logfile.txt
+2019-08-07 16:05:50.9218 Trace Opening C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/2019-08-07_logfile.txt with allowFileSharedWriting=False
+2019-08-07 16:05:50.9386 Trace Opening C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/2019-08-07_logfile.txt with allowFileSharedWriting=False
+2019-08-07 16:05:50.9386 Trace Opening C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/2019-08-07_logfile.txt with allowFileSharedWriting=False
+2019-08-07 16:05:50.9386 Trace Opening C:/Users/Owner/Desktop/Projects After Redwood Cohort/DentistPatient/backend-dotnet/DentistPatientAPI/DentistPatientServer/logs/2019-08-07_logfile.txt with allowFileSharedWriting=False
