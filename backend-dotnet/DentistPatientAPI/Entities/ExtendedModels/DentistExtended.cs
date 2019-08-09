@@ -4,7 +4,7 @@ using System;
 
 namespace Entities.ExtendedModels
 {
-    public class DentistExtended 
+    public class DentistExtended  : IEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }

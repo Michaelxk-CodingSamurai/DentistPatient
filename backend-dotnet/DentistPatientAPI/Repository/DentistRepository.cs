@@ -5,6 +5,7 @@ using Contracts;
 using Entities;
 using Entities.Models;
 using Entities.ExtendedModels;
+using Entities.Extensions;
 
 namespace Repository
 {
@@ -37,6 +38,25 @@ namespace Repository
                 Appointments = RepositoryContext.Appointments
                     .Where(a => a.DentistId == dentistId)
             };
+        }
+
+        public void CreateDentist(Dentist dentist)
+        {
+            Create(dentist);
+            Save(); 
+        }
+
+        public void UpdateDentist(Dentist dbDentist, Dentist dentist)
+        {
+            dbDentist.Map(dentist);
+            Update(dbDentist);
+            Save(); 
+        }
+
+        public void DeleteDentist(Dentist dentist)
+        {
+            Delete(dentist); 
+            Save();
         }
 
     }
