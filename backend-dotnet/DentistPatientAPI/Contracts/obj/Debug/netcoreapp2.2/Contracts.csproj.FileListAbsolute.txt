@@ -7,3 +7,6 @@ C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotn
 C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\Contracts\obj\Debug\netcoreapp2.2\Contracts.AssemblyInfo.cs
 C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\Contracts\obj\Debug\netcoreapp2.2\Contracts.dll
 C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\Contracts\obj\Debug\netcoreapp2.2\Contracts.pdb
+C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\Contracts\bin\Debug\netcoreapp2.2\Entities.dll
+C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\Contracts\bin\Debug\netcoreapp2.2\Entities.pdb
+C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\Contracts\obj\Debug\netcoreapp2.2\Contracts.csproj.CopyComplete

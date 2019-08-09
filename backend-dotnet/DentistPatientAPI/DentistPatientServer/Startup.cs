@@ -1,9 +1,7 @@
 ﻿using System;
 
-
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-
 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -11,18 +9,16 @@ using Microsoft.Extensions.DependencyInjection;
 
 using DentistPatientServer.Extensions;
 using Microsoft.AspNetCore.HttpOverrides;
+using NLog;
 using System.IO;
 
-using NLog;
-
-
-namespace DentistPatientAPI
+namespace DentistPatientServer
 {
     public class Startup
     {
         public Startup(IConfiguration configuration)
         {
-            LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
+            LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(),"/nlog.config"));
             Configuration = configuration;
         }
 
@@ -34,8 +30,11 @@ namespace DentistPatientAPI
             services.ConfigureCors();
             services.ConfigureIISIntegration();
             services.ConfigureLoggerService();
+            services.ConfigureMySqlContext(Configuration);
+            services.ConfigureRepositoryWrapper();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
+
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
@@ -56,7 +55,6 @@ namespace DentistPatientAPI
                 ForwardedHeaders = ForwardedHeaders.All
             });
             app.UseStaticFiles();
-
             app.UseMvc();
         }
     }

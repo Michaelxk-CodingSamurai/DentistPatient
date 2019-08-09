@@ -10,3 +10,5 @@ C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotn
 C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.csproj.CopyComplete
 C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.dll
 C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.pdb
+C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\LoggerService\bin\Debug\netcoreapp2.2\Entities.dll
+C:\Users\Owner\Desktop\Projects After Redwood Cohort\DentistPatient\backend-dotnet\DentistPatientAPI\LoggerService\bin\Debug\netcoreapp2.2\Entities.pdb

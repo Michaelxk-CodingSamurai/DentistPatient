@@ -4,11 +4,11 @@ Values (1, "Mickey Lee", "1985-11-3", "1234 Colored Road", "JohnKay@BestDentist.
 (3, "Smith O'Brian", "1975-6-4", "909 Ocean Lane", "SmithOBrian@BestDentist.com", "909-408-3910, ext. 9093", "Surgery");
 
 INSERT INTO `patient`
-Values(1, "Roy Carter", "1980-2-3", "6 Clear-Pond Drive", "RoyCarterE6@gmail.com", "Low", "General Checkup", 1), 
-(2, "Kim Carter", "1999-7-9", "6 Clear-Pond Drive", "KimmyCarter9@gmail.com", "Low", "Teeth Cleaning", 1),
-(3, "Andrew Young", "2001-7-9", "687 Lily Ave", "Ayoung2019@student.com", "Medium", "Cavity Removal", 2),
-(4, "Bryan Rice", "1993-2-19", "389 White Bridge", "BryanRice@chapman.com", "High", "Root Canal", "2"), 
-(5, "Nathan Anders", "1967-5-19", "824 Castle-Tower", "AndersNathanielG9@gmail.com", "High", "Surgery", "3");
+Values(1, "Roy Carter", "1980-2-3", "6 Clear-Pond Drive", "RoyCarterE6@gmail.com", "388-123-4123", "Low", "General Checkup", 1), 
+(2, "Kim Carter", "1999-7-9", "6 Clear-Pond Drive", "KimmyCarter9@gmail.com", "433-432-6885","Low", "Teeth Cleaning", 1),
+(3, "Andrew Young", "2001-7-9", "687 Lily Ave", "Ayoung2019@student.com", "234-234-8776","Medium", "Cavity Removal", 2),
+(4, "Bryan Rice", "1993-2-19", "389 White Bridge", "BryanRice@chapman.com", "484-432-4782","High", "Root Canal", "2"), 
+(5, "Nathan Anders", "1967-5-19", "824 Castle-Tower", "AndersNathanielG9@gmail.com", "432-653-0987", "High", "Surgery", "3");
 
 INSERT INTO `appointment`
 Values (1, "2019-8-1", "9:00:00", "Irvine Office", "Check Up", 1, 1),
