@@ -9,3 +9,4 @@
 *.txt
 backend-dotnet/DentistPatientAPI/Contracts/obj/Debug/netcoreapp2.2/Contracts.csproj.FileListAbsolute.txt
 *.txt
+backend-dotnet/DentistPatientAPI/DentistPatientServer/internal_logs/internallog.txt
